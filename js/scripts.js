@@ -30,10 +30,10 @@ function render() {
     saraksts.innerHTML = "";
 
     for(let i = 0; i < produkti.length; i++) {
-        let produkts =
+        let produkts = 
         <div class="produkts">
-            <h3>Produkts: ${gramatas[i].produkts</h3>
-            <h4>Daudzums: ${gramatas[i].daudzums</h4>
+            <h3>Produkts: ${gramatas[i].produkts}</h3>
+            <h4>Daudzums: ${gramatas[i].daudzums}</h4>
         </div>
 
         saraksts.innerHTML += produkts;
